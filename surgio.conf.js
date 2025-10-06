@@ -138,7 +138,7 @@ module.exports = {
   analytics: true,
 
   gateway: {
-    auth: true,
+    auth: false,
     accessToken: 'token',
     viewerToken: 'token',
   },
