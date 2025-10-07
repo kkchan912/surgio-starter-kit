@@ -130,16 +130,19 @@ module.exports = {
     },
   ],
 
-  urlBase: 'https://xxxxx.netlify.app/get-artifact/',
+  // 部署到 Netlify 后，将这里改为你的 Netlify 域名
+  // 例如: https://your-app-name.netlify.app/get-artifact/
+  urlBase: 'https://your-app-name.netlify.app/get-artifact/',
 
   surgeConfig: {
     v2ray: 'native',
   },
   analytics: true,
 
+  // Gateway 配置 - 用于在线管理和访问控制
   gateway: {
-    auth: false,
-    accessToken: 'token',
-    viewerToken: 'token',
+    auth: true, // 建议开启认证以保护你的配置
+    accessToken: process.env.ACCESS_TOKEN || 'your-secret-token', // 管理员访问令牌，建议使用环境变量
+    viewerToken: process.env.VIEWER_TOKEN || 'your-viewer-token', // 访客访问令牌
   },
 }
