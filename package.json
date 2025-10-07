@@ -2,15 +2,27 @@
   "name": "my-rule-store",
   "version": "0.1.0",
   "private": true,
+  "description": "Surgio 配置生成器 - 支持 Surge、Quantumult-X、Clash",
   "scripts": {
     "update": "surgio generate && surgio upload",
-    "start": "node gateway.js"
+    "start": "node gateway.js",
+    "generate": "surgio generate",
+    "dev": "node gateway.js",
+    "test": "surgio generate --test"
   },
   "engines": {
-    "node": ">=12"
+    "node": ">=14"
   },
   "dependencies": {
     "@surgio/gateway": "^2.0.1",
     "surgio": "^3.0.2"
-  }
+  },
+  "keywords": [
+    "surgio",
+    "surge",
+    "quantumult-x",
+    "clash",
+    "proxy",
+    "netlify"
+  ]
 }
