@@ -132,7 +132,7 @@ module.exports = {
 
   // 部署到 Netlify 后，将这里改为你的 Netlify 域名
   // 例如: https://your-app-name.netlify.app/get-artifact/
-  urlBase: 'https://your-app-name.netlify.app/get-artifact/',
+  urlBase: 'https://surge.kkchan.eu.org.netlify.app/get-artifact/',
 
   surgeConfig: {
     v2ray: 'native',
