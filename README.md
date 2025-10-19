@@ -28,7 +28,7 @@
 
 Surgio支持部署到Vercel/Railway/自建等平台，这里只以Netlify为例子
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/tediorelee/surgio-starter-kit)
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/kkchan912/surgio-starter-kit)
 
 ---
 
